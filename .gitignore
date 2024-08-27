@@ -35,7 +35,7 @@ yarn-error.log*
 next-env.d.ts
 
 #Pthon-env
-/iot-env
+/deploy-aws-cdk-env
 
 #pycatche bytecode to ignore
 __pycache__/
