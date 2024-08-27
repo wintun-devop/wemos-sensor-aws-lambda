@@ -1,9 +1,9 @@
 ## virtial environment set-up
 ```
-python -m venv lambda-deploy-env
+python -m venv deploy-aws-cdk-env
 ```
 ```
-lambda-deploy-env/Script/activate
+deploy-aws-cdk-env/Script/activate
 ```
 ```
 pip install aws-cdk.core
@@ -38,7 +38,7 @@ cdk bootstrap
 cdk deploy
 ```
 
-### Bootstrap with Default Profile and deploy
+### Bootstrap with Specific Profile and Deploy
 ```
 cdk bootstrap your_profile
 ```
