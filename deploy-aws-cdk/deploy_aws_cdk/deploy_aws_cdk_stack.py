@@ -21,7 +21,7 @@ class DeployAwsCdkStack(Stack):
             handler='lambda_function.handler',
             code=_lambda.Code.from_asset(os.path.join(cwd, "infra/temperature_humidity_lambda")),
             # Customize the Lambda function name
-            function_name='TemperatureHumidityLambda'  
+            function_name='TemperatureHumidityLambda'
         )
         """ 
         # example resource

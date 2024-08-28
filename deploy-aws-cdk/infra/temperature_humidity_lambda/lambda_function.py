@@ -17,6 +17,8 @@ def handler(event, context):
     else:
         response= buildResponse(404,{"message":"Not Found"})
     return response
+    # response = {"test":"test"}
+    # return response
 
 #Response Build 
 def buildResponse(statusCode,body=None):
